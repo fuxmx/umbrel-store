@@ -2,8 +2,7 @@ version: "3.7"
 
 services:
   app:
-    image: amneziawg-v2-client:latest
-    pull_policy: never
+    image: fuxmx/amneziawg-v2-client:latest
     container_name: amnezia-vpn
     restart: always
     network_mode: host
