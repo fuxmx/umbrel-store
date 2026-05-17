@@ -7,6 +7,8 @@ developer: Matthias
 website: https://github.com
 description: >-
   Ein nativ integrierter AmneziaWG-Client mit Protokoll-Version 2 Support.
-category: native-apps
+category: utilities
 icon: https://raw.githubusercontent.com/fuxmx/umbrel-store/refs/heads/main/fuxmx-amnezia-client/icon.svg
+dependencies: []
+gallery: []
 
