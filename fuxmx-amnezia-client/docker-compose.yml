@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  app:
+    image: amneziawg-v2-client:latest
+    pull_policy: never
+    container_name: amnezia-vpn
+    restart: always
+    network_mode: host
+    devices:
+      - /dev/net/tun:/dev/net/tun
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    volumes:
+      - /data/app-data/custom-wireguard:/config

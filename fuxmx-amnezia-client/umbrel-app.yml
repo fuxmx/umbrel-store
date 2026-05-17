@@ -1,0 +1,11 @@
+manifestVersion: 1
+id: fuxmx-amnezia-client
+name: Amnezia VPN Client
+version: "1.0.0"
+tagline: V2 Tunnel to an amnezia server
+developer: Matthias
+website: https://github.com
+description: >-
+  Ein nativ integrierter AmneziaWG-Client mit Protokoll-Version 2 Support.
+category: native-apps
+
